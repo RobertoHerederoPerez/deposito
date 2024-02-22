@@ -10,7 +10,7 @@ public class CCuenta {
     private String nombre;
     private String cuenta;
     private double saldo;
-    private double tipoInterés;
+    private double tipoInteres;
 
     public CCuenta()
     {
@@ -57,12 +57,12 @@ public class CCuenta {
 	 * este metodo nos muestra el interes que tiene asociado la cuenta
 	 * @return
 	 */
-	public double getTipoInterés() {
-		return tipoInterés;
+	public double getTipoInteres() {
+		return tipoInteres;
 	}
 
-	public void setTipoInterés(double tipoInterés) {
-		this.tipoInterés = tipoInterés;
+	public void setTipoInteres(double tipoInteres) {
+		this.tipoInteres = tipoInteres;
 	}
 
 	/**
@@ -77,7 +77,7 @@ public class CCuenta {
 	/**
 	 * metodo ingreso para realizar aportaciones a la cuenta
 	 * @param cantidad
-	 * @throws Exception
+	 * @throws Exception si la cantidad de negativa muestra una excepcion, para control de errores.
 	 */
     public void ingresar(double cantidad) throws Exception
     {
