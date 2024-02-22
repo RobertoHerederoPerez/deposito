@@ -2,7 +2,7 @@ package cuentas;
 public class Main {
 
     public static void main(String[] args) {
-        operativa_cuenta(100);
+        operativa_cuenta(2500);
     }
 
 	public static void operativa_cuenta(float cantidad) {
